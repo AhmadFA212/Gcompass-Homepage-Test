@@ -27,6 +27,10 @@
   min-width: 53px;
   z-index: 2;
 }
+.home:hover{
+  color :#C6922B;
+  transform: scale(1.1);
+}
 .nested-structure {
   display: flex;
   flex-direction: column;
@@ -34,14 +38,38 @@
   justify-content: flex-start;
   padding: 0 var(--padding-xs) 0 0;
 }
-.pre-orders,
-.support,
+.pre-orders{
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 2;
+}
+.pre-orders:hover{
+  color :#C6922B;
+  transform: scale(1.1);
+}
+.support{
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 53px;
+  z-index: 2;
+}
+.support:hover{
+  color :#C6922B;
+  transform: scale(1.1);
+}
 .upcoming {
   position: relative;
   font-weight: 800;
   display: inline-block;
   min-width: 100px;
   z-index: 2;
+}
+.upcoming:hover{
+  color :#C6922B;
+  transform: scale(1.1);
 }
 .support,
 .upcoming {
