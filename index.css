@@ -15,6 +15,11 @@
   background: linear-gradient(94.4deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   z-index: 1;
 }
+
+.dropdown-content{
+  position: absolute;
+  right: auto;
+}
 .rectangle-parent {
   margin: 0 !important;
   right: 0;
